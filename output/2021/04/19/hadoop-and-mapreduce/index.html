@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../../../theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="../../../../theme/pygments/monokai.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="../../../../theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="../../../../theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="../../../../theme/font-awesome/css/solid.css">
+
+    <link href="../../../../static/custom.css" rel="stylesheet">
+
+    <link href="https://jelly123456.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="YiLi Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-125604661-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="YiLi" />
+<meta name="description" content="Good blog from internet Source 1 Source 2 What is big data Big volume High velocity Variety Problems with big data With traditional platform, a ETF task would take a very long time for big data because of low the data access rate and long program computation time. Hadoop A …" />
+<meta name="keywords" content="">
+
+
+<meta property="og:site_name" content="YiLi"/>
+<meta property="og:title" content="Hadoop and MapReduce"/>
+<meta property="og:description" content="Good blog from internet Source 1 Source 2 What is big data Big volume High velocity Variety Problems with big data With traditional platform, a ETF task would take a very long time for big data because of low the data access rate and long program computation time. Hadoop A …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="../../../../2021/04/19/hadoop-and-mapreduce/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2021-04-19 00:00:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="../../../../author/yili.html">
+<meta property="article:section" content="Big data&Data Engineer"/>
+<meta property="og:image" content="/images/Pic1.JPG">
+
+  <title>YiLi &ndash; Hadoop and MapReduce</title>
+
+</head>
+<body class="light-theme">
+  <aside>
+    <div>
+      <a href="../../../..">
+        <img src="/images/Pic1.JPG" alt="YiLi" title="YiLi">
+      </a>
+
+      <h1>
+        <a href="../../../..">YiLi</a>
+      </h1>
+
+<p>A data scientist - A coder</p>
+
+      <nav>
+        <ul class="list">
+
+
+              <li>
+                <a target="_self"
+                   href="../../../../cv/">
+                  <span class="caps">CV</span>
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="../../../../about-me/">
+                  About&nbsp;me.
+                </a>
+              </li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-github" href="https://github.com/Jelly123456" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/han-yili-a3860659/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-leetcode" href="https://leetcode.com/HanYiLi/" target="_blank">
+              <i class="fab fa-leetcode"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="../../../..">Home</a>
+
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+      <a href="/archives.html">Archives</a>
+
+      <a href="https://jelly123456.github.io/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="hadoop-and-mapreduce">Hadoop and&nbsp;MapReduce</h1>
+    <p>
+      Posted on Mon 19 April 2021 in <a href="../../../../category/big-datadata-engineer.html">Big data&Data Engineer</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p><a href="https://medium.com/swlh/5-free-online-courses-to-learn-big-data-hadoop-and-spark-in-2019-a553e6ccfe30">Good blog from&nbsp;internet</a></p>
+<p><a href="https://www.udemy.com/course/hadoopstarterkit/learn/lecture/2995948#overview">Source&nbsp;1</a></p>
+<p><a href="https://hadoop.apache.org/">Source&nbsp;2</a></p>
+<h1 id="what-is-big-data">What is big&nbsp;data</h1>
+<ul>
+<li>Big&nbsp;volume</li>
+<li>High&nbsp;velocity</li>
+<li>Variety</li>
+</ul>
+<h1 id="problems-with-big-data">Problems with big&nbsp;data</h1>
+<p>With traditional platform, a <span class="caps">ETF</span> task would take a very long time for big data because of low the data access rate and long program computation&nbsp;time.</p>
+<h1 id="hadoop">Hadoop</h1>
+<ul>
+<li>A big data&nbsp;platform</li>
+<li>A open source project by Apache Software&nbsp;Foundation</li>
+</ul>
+<h1 id="hdfs-hadoop-distributed-file-system"><span class="caps">HDFS</span> - Hadoop Distributed File&nbsp;System</h1>
+<ul>
+<li>If you upload a file into <span class="caps">HDFS</span>, it will automatically split into blocks with a fixed size of <span class="caps">128MB</span></li>
+<li><span class="caps">HDFS</span>&nbsp;responsibilities</li>
+<li>takes care of placing the blocks in differnet&nbsp;nodes</li>
+<li>takes care of replicating each block to be more than one node, by feault, it will replicates to be 3&nbsp;nodes</li>
+<li>Benefits of <span class="caps">HDFS</span></li>
+<li>Support distributed processing<ul>
+<li>Blocks</li>
+</ul>
+</li>
+<li>Handle failure<ul>
+<li>Replicate&nbsp;blocks</li>
+</ul>
+</li>
+<li>Scalability<ul>
+<li>Able to support future&nbsp;expansion</li>
+</ul>
+</li>
+<li>Cost effective<ul>
+<li>Commodity&nbsp;hardware</li>
+</ul>
+</li>
+</ul>
+<h1 id="mapreduce">MapReduce</h1>
+<ul>
+<li>Description</li>
+<li>MapReduce is a programming model for distributed&nbsp;computing</li>
+<li>It is not a programming language, but a&nbsp;model</li>
+<li>It can process huge datasets in a distributed&nbsp;fashion</li>
+<li>Phases</li>
+<li>Map phase<ul>
+<li>Assign each individual&nbsp;mapper</li>
+</ul>
+</li>
+<li>Shuffle&nbsp;phase</li>
+<li>Reduce phase<ul>
+<li>Aggregrate the results from map&nbsp;phase</li>
+</ul>
+</li>
+</ul>
+<h1 id="apache-pig">Apache&nbsp;Pig</h1>
+<ul>
+<li>Description</li>
+<li>Developed in&nbsp;Yahoo</li>
+<li>To make mapreduce accessible to anyone who want to use hadoop&nbsp;clusters</li>
+<li>The lines of codes will be less than that is written in&nbsp;Java</li>
+</ul>
+<h1 id="apache-hive">Apache&nbsp;Hive</h1>
+<ul>
+<li>Description</li>
+<li>Developed by&nbsp;Facebook</li>
+<li>Widely used in&nbsp;industry</li>
+<li>Able to create table structures for your data set and write <span class="caps">SQL</span> quries to&nbsp;analyze.</li>
+<li>Pig <span class="caps">VS</span>&nbsp;Hive</li>
+<li>These two similar tools can be used in the same hadoop&nbsp;project</li>
+<li>Pig is suitable to run standard nightly <span class="caps">ETL</span> jobs, like extracting data, transforming data and doing some pre-defined&nbsp;calculations</li>
+<li>Hive can be used by developers, data analytics, data scientists on a daily ad-hoc data analysis&nbsp;*</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'YiLi Han';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " YiLi ",
+  "url" : "../../../..",
+  "image": "/images/Pic1.JPG",
+  "description": ""
+}
+</script>
+
+
+</body>
+</html>

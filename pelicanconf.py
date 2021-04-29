@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']
@@ -88,5 +89,5 @@ SOCIAL = (('github', 'https://github.com/Jelly123456'),
 #          ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Flex theme integrations
-DISQUS_SITENAME = 'alexioannides'
+DISQUS_SITENAME = 'YiLi Han'
 GOOGLE_ANALYTICS= 'UA-125604661-1'

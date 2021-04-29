@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>YiLi - Autonomous driving</title><link href="https://jelly123456.github.io/" rel="alternate"></link><link href="https://jelly123456.github.io/feeds/category/autonomous-driving/atom.xml" rel="self"></link><id>https://jelly123456.github.io/</id><updated>2020-12-03T00:00:00+08:00</updated><subtitle>A data scientist - A coder</subtitle><entry><title>Architecture of autonomous driving system</title><link href="https://jelly123456.github.io/2020/12/03/architecture-of-autonomous-driving-system/" rel="alternate"></link><published>2020-12-03T00:00:00+08:00</published><updated>2020-12-03T00:00:00+08:00</updated><author><name>YiLi</name></author><id>tag:jelly123456.github.io,2020-12-03:/2020/12/03/architecture-of-autonomous-driving-system/</id><content type="html">&lt;h1 id="what-is-autonomous-driving"&gt;What is autonomous&amp;nbsp;driving&lt;/h1&gt;
+&lt;p&gt;Add&amp;nbsp;soon&lt;/p&gt;
+&lt;h1 id="object-tracking"&gt;Object&amp;nbsp;tracking&lt;/h1&gt;
+&lt;p&gt;&lt;span class="caps"&gt;TBA&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id="object-detection"&gt;Object&amp;nbsp;detection&lt;/h1&gt;
+&lt;p&gt;Add&amp;nbsp;soon&lt;/p&gt;
+&lt;p&gt;Updating&amp;nbsp;soon.&lt;/p&gt;</content><category term="Autonomous driving"></category></entry></feed>

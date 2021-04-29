@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>YiLi - Deep learning&amp;Computer vision</title><link>https://jelly123456.github.io/</link><description>A data scientist - A coder</description><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0800</lastBuildDate><item><title>First Post on My Blog</title><link>https://jelly123456.github.io/2020/12/01/first-post-on-my-blog/</link><description>&lt;h1 id="i-am-on-my-way-to-internet-fame-and-fortune"&gt;I am On My Way To Internet Fame and&amp;nbsp;Fortune!&lt;/h1&gt;
-&lt;p&gt;This is my first post on my new blog. While not super informative it
-should convey my sense of excitement and eagerness to engage with you,
-the&amp;nbsp;reader!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Tue, 01 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-01:/2020/12/01/first-post-on-my-blog/</guid><category>Deep learning&amp;Computer vision</category></item></channel></rss>
+<rss version="2.0"><channel><title>YiLi - Deep learning&amp;Computer vision</title><link>https://jelly123456.github.io/</link><description>A data scientist - A coder</description><lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0800</lastBuildDate><item><title>Other things about computer vision</title><link>https://jelly123456.github.io/2021/02/16/other-things-about-computer-vision/</link><description>&lt;h1 id="command-list"&gt;Command&amp;nbsp;list&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Training command with multiple &lt;span class="caps"&gt;GPU&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;python -m torch.distributed.launch --nproc_per_node 2 train.py --batch-size 64 --data data/Allcls_one.yaml --weights weights/yolov5l.pt --cfg models/yolov5l_1cls.yaml --epochs 1 --device 0,1&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Training command with single &lt;span class="caps"&gt;GPU&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;python train.py --batch-size 32 --data data/Allcls_one.yaml --weights weights/yolov5l.pt --cfg models/yolov5l_1cls.yaml --epochs 1 --device 0&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id="problems-faced-so-far-during-training"&gt;Problems faced so far during&amp;nbsp;training&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;A picture with &lt;span class="caps"&gt;JPG&lt;/span&gt; is recognised as &lt;span class="caps"&gt;MPO&lt;/span&gt;?&lt;/li&gt;
+&lt;li&gt;Data&amp;nbsp;pre-prcessing&lt;/li&gt;
+&lt;li&gt;Missing&amp;nbsp;lables&lt;/li&gt;
+&lt;li&gt;Corrupted&amp;nbsp;images&lt;/li&gt;
+&lt;li&gt;Leble files are&amp;nbsp;empty&lt;/li&gt;
+&lt;li&gt;Multi &lt;span class="caps"&gt;GPU&lt;/span&gt; training problem&amp;nbsp;*&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Tue, 16 Feb 2021 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2021-02-16:/2021/02/16/other-things-about-computer-vision/</guid><category>Deep learning&amp;Computer vision</category></item><item><title>Computer vision models with pytorch</title><link>https://jelly123456.github.io/2020/12/01/computer-vision-models-with-pytorch/</link><description>&lt;h1 id="updating-soon"&gt;Updating&amp;nbsp;soon!&lt;/h1&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Tue, 01 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-01:/2020/12/01/computer-vision-models-with-pytorch/</guid><category>Deep learning&amp;Computer vision</category></item><item><title>Computer vision models with tensorflow</title><link>https://jelly123456.github.io/2020/12/01/computer-vision-models-with-tensorflow/</link><description>&lt;h1 id="updating-soon"&gt;Updating&amp;nbsp;soon!&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.coursera.org/professional-certificates/tensorflow-in-practice"&gt;TensorFlow Developer Professional&amp;nbsp;Certificate&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Tue, 01 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-01:/2020/12/01/computer-vision-models-with-tensorflow/</guid><category>Deep learning&amp;Computer vision</category></item></channel></rss>

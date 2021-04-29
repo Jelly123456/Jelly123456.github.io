@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>YiLi - YoLo</title><link>https://jelly123456.github.io/</link><description>A data scientist - A coder</description><lastBuildDate>Thu, 08 Apr 2021 00:00:00 +0800</lastBuildDate><item><title>YoLo</title><link>https://jelly123456.github.io/2021/04/08/yolo/</link><description>&lt;h1 id="install-nvidia-graphic-driver-and-cuda"&gt;Install Nvidia graphic driver and &lt;span class="caps"&gt;CUDA&lt;/span&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;OS&lt;/span&gt;: Ubuntu&amp;nbsp;18.04&lt;/li&gt;
+&lt;li&gt;https://dev.azure.com/&lt;span class="caps"&gt;ABB&lt;/span&gt;-&lt;span class="caps"&gt;ELBA&lt;/span&gt;-CHRDMarine/_git/Triton?path=%&lt;span class="caps"&gt;2FINSTALLATION&lt;/span&gt;.md&amp;amp;version=GBmaster&amp;amp;_a=preview&lt;/li&gt;
+&lt;li&gt;https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="install-cudnn"&gt;Install&amp;nbsp;cudNN&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html&lt;/li&gt;
+&lt;li&gt;https://sh-tsang.medium.com/tutorial-cuda-v10-2-cudnn-v7-6-5-installation-ubuntu-18-04-3d24c157473f&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="what-is-cuda-and-cudnn"&gt;What is &lt;span class="caps"&gt;CUDA&lt;/span&gt; and &lt;span class="caps"&gt;CUDNN&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 id="setup-opencv-in-ubuntu-18042004"&gt;Setup opencv in Ubuntu&amp;nbsp;18.04/20.04&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenCV&amp;nbsp;C++&lt;/li&gt;
+&lt;li&gt;https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html&amp;nbsp;*&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Thu, 08 Apr 2021 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2021-04-08:/2021/04/08/yolo/</guid><category>YoLo</category></item></channel></rss>

@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://jelly123456.github.io/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://jelly123456.github.io/theme/pygments/monokai.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://jelly123456.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://jelly123456.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://jelly123456.github.io/theme/font-awesome/css/solid.css">
+
+    <link href="https://jelly123456.github.io/static/custom.css" rel="stylesheet">
+
+    <link href="https://jelly123456.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="YiLi Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-125604661-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="YiLi" />
+<meta name="description" content="Source Source Apache spark VS Hadoop Apache spark A shiny new big data platform A open source project by Apache Software Foundation Apache spark VS Hadoop Key difference Spark can do in memory Hadoop mapReduce has to read from and write to a disk the speed of processing differs significantly …" />
+<meta name="keywords" content="">
+
+
+<meta property="og:site_name" content="YiLi"/>
+<meta property="og:title" content="Apache spark"/>
+<meta property="og:description" content="Source Source Apache spark VS Hadoop Apache spark A shiny new big data platform A open source project by Apache Software Foundation Apache spark VS Hadoop Key difference Spark can do in memory Hadoop mapReduce has to read from and write to a disk the speed of processing differs significantly …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://jelly123456.github.io/2021/04/21/apache-spark/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2021-04-21 00:00:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://jelly123456.github.io/author/yili.html">
+<meta property="article:section" content="Big data&Data Engineer"/>
+<meta property="og:image" content="/images/Pic1.JPG">
+
+  <title>YiLi &ndash; Apache spark</title>
+
+</head>
+<body class="light-theme">
+  <aside>
+    <div>
+      <a href="https://jelly123456.github.io">
+        <img src="/images/Pic1.JPG" alt="YiLi" title="YiLi">
+      </a>
+
+      <h1>
+        <a href="https://jelly123456.github.io">YiLi</a>
+      </h1>
+
+<p>A data scientist - A coder</p>
+
+      <nav>
+        <ul class="list">
+
+
+              <li>
+                <a target="_self"
+                   href="https://jelly123456.github.io/cv/">
+                  <span class="caps">CV</span>
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://jelly123456.github.io/about-me/">
+                  About&nbsp;me.
+                </a>
+              </li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-github" href="https://github.com/Jelly123456" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/han-yili-a3860659/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-leetcode" href="https://leetcode.com/HanYiLi/" target="_blank">
+              <i class="fab fa-leetcode"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://jelly123456.github.io">Home</a>
+
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+      <a href="/archives.html">Archives</a>
+
+      <a href="https://jelly123456.github.io/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="apache-spark">Apache&nbsp;spark</h1>
+    <p>
+      Posted on Wed 21 April 2021 in <a href="https://jelly123456.github.io/category/big-datadata-engineer.html">Big data&Data Engineer</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1 id="source">Source</h1>
+<p><a href="https://www.udemy.com/course/scala-and-spark-2-getting-started/learn/lecture/9656744?LSNPUBID=JVFxdTr9V80&amp;components=purchase%2Ccacheable_buy_button%2Cbuy_button%2Crecommendation&amp;ranEAID=JVFxdTr9V80&amp;ranMID=39197&amp;ranSiteID=JVFxdTr9V80-NEYgc584Fxj.ju4fAiJ35A&amp;utm_medium=udemyads&amp;utm_source=aff-campaign#overview">Source</a></p>
+<p><a href="https://www.scnsoft.com/blog/spark-vs-hadoop-mapreduce">Apache spark <span class="caps">VS</span>&nbsp;Hadoop</a></p>
+<h1 id="apache-spark">Apache&nbsp;spark</h1>
+<ul>
+<li>A shiny new big data&nbsp;platform</li>
+<li>A open source project by Apache Software&nbsp;Foundation</li>
+</ul>
+<h1 id="apache-spark-vs-hadoop">Apache spark <span class="caps">VS</span>&nbsp;Hadoop</h1>
+<ul>
+<li>Key&nbsp;difference</li>
+<li>Spark can do in&nbsp;memory</li>
+<li>Hadoop mapReduce has to read from and write to a&nbsp;disk</li>
+<li>the speed of processing differs&nbsp;significantly</li>
+<li>Apache Spark is potentially 100 times faster than Hadoop&nbsp;MapReduce</li>
+<li>the volume of data processed also&nbsp;differs</li>
+<li>Hadoop MapReduce is able to work with far larger data sets than&nbsp;Spark</li>
+<li>Apache Spark utilizes <span class="caps">RAM</span> and isn&#8217;t tied to Hadoop&#8217;s two-stage&nbsp;paradigm</li>
+<li>Apache Spark works well for smaller data sets that can all fit into a server&#8217;s <span class="caps">RAM</span></li>
+<li>Hadoop is more cost effective processing massive data&nbsp;sets</li>
+<li>Apache Spark is now more popular that Hadoop&nbsp;MapReduce</li>
+</ul>
+<h2 id="tasks-hadoop-mapreduce-is-good-for">Tasks Hadoop MapReduce is good&nbsp;for:</h2>
+<ul>
+<li>Linear processing of huge data&nbsp;sets.</li>
+<li>Hadoop MapReduce allows parallel processing of huge amounts of data. It breaks a large chunk into smaller ones to be processed separately on different data nodes and automatically gathers the results across the multiple nodes to return a single result. In case the resulting dataset is larger than available <span class="caps">RAM</span>, Hadoop MapReduce may outperform&nbsp;Spark.</li>
+<li>Economical solution, if no immediate results are&nbsp;expected.</li>
+<li>MapReduce is a good solution if the speed of processing is not critical. For instance, if data processing can be done during night hours, it makes sense to consider using Hadoop&nbsp;MapReduce.</li>
+</ul>
+<h2 id="tasks-spark-is-good-for">Tasks Spark is good&nbsp;for:</h2>
+<ul>
+<li>Fast data&nbsp;processing.</li>
+<li>In-memory processing makes Spark faster than Hadoop MapReduce – up to 100 times for data in <span class="caps">RAM</span> and up to 10 times for data in&nbsp;storage.</li>
+<li>Iterative&nbsp;processing.</li>
+<li>If the task is to process data again and again – Spark defeats Hadoop MapReduce. Spark’s Resilient Distributed Datasets (RDDs) enable multiple map operations in memory, while Hadoop MapReduce has to write interim results to a&nbsp;disk.</li>
+<li>Near real-time&nbsp;processing.</li>
+<li>If a business needs immediate insights, then they should opt for Spark and its in-memory&nbsp;processing.</li>
+<li>Graph&nbsp;processing.</li>
+<li>Spark&#8217;s computational model is good for iterative computations that are typical in graph processing. And Apache Spark has GraphX – an <span class="caps">API</span> for graph&nbsp;computation.</li>
+<li>Machine&nbsp;learning</li>
+<li>Spark has MLlib – a built-in machine learning library, while Hadoop needs a third-party to provide it. MLlib has out-of-the-box algorithms that also run in&nbsp;memory.</li>
+<li>Joining&nbsp;datasets</li>
+<li>Due to its speed, Spark can create all combinations faster, though Hadoop may be better if joining of very large data sets that requires a lot of shuffling and sorting is&nbsp;needed.</li>
+</ul>
+<h1 id="architecture-of-sparkupdating">Architecture of&nbsp;Spark(Updating)</h1>
+<h1 id="resilient-distributed-datasetsrdd">Resilient Distributed Datasets(<span class="caps">RDD</span>)</h1>
+<ul>
+<li>Dataset</li>
+<li>Distributed</li>
+<li>Resilient</li>
+<li>Recover from&nbsp;failure</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'YiLi Han';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " YiLi ",
+  "url" : "https://jelly123456.github.io",
+  "image": "/images/Pic1.JPG",
+  "description": ""
+}
+</script>
+
+
+</body>
+</html>

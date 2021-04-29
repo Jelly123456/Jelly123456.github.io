@@ -32,7 +32,7 @@ pip install pelican Markdown ghp-import typogrify
 ```
 
 2. Create a folder for the website. The folder name is username.github.io.
-   
+
    "username" is the github name. The folder name should be like this because this will be used for github pages hosting later.
 
 ```
@@ -115,11 +115,11 @@ Hello!
    6.2 create a new markdown files in each subfolder to write articles.
 7. Change the default theme to flex
    7.1 clone flex theme to a folder under the root directory
-   
+
    ```
    git clone https://github.com/alexandrevicenzi/Flex.git
    ```
-   
+
    7.2 change the pelicanconf.py
 
 8.Time to publish the website locally
@@ -184,4 +184,3 @@ git checkout content
 ```
 
 [check the website](https://jelly123456.github.io/)
-

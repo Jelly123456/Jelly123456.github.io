@@ -322,8 +322,19 @@
 <li>Modify or add markdown files or add new&nbsp;categories</li>
 <li>Change Change <code>RELATIVE_URLS = True</code> in&nbsp;pelicanconf.py</li>
 <li>run <code>Blog_Test.bat</code> to test the blog&nbsp;locally</li>
-<li>pelican</li>
+<li><code>pelican</code></li>
+<li><code>start "" "http://localhost:8000/"</code></li>
 <li>pelican &#8212;listen&nbsp;output</li>
+<li>Change Change <code>RELATIVE_URLS = False</code> in&nbsp;pelicanconf.py</li>
+<li>run <code>Publish.bat</code> to update all the changes to&nbsp;github</li>
+<li><code>git add .</code></li>
+<li><code>git commit -m %1</code></li>
+<li><code>git push -u origin content</code></li>
+<li><code>pelican content -o output -s pelicanconf.py</code></li>
+<li><code>ghp-import output -r origin -b master</code></li>
+<li><code>git push -f origin master</code></li>
+<li><code>git checkout content</code></li>
+<li><code>Publish.bat "some comment"</code></li>
 </ol>
   </div>
   <div class="tag-cloud">

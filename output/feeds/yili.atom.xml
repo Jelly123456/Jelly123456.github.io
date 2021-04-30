@@ -724,8 +724,19 @@
 &lt;li&gt;Modify or add markdown files or add new&amp;nbsp;categories&lt;/li&gt;
 &lt;li&gt;Change Change &lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; in&amp;nbsp;pelicanconf.py&lt;/li&gt;
 &lt;li&gt;run &lt;code&gt;Blog_Test.bat&lt;/code&gt; to test the blog&amp;nbsp;locally&lt;/li&gt;
-&lt;li&gt;pelican&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pelican&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start "" "http://localhost:8000/"&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;pelican &amp;#8212;listen&amp;nbsp;output&lt;/li&gt;
+&lt;li&gt;Change Change &lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; in&amp;nbsp;pelicanconf.py&lt;/li&gt;
+&lt;li&gt;run &lt;code&gt;Publish.bat&lt;/code&gt; to update all the changes to&amp;nbsp;github&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m %1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u origin content&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pelican content -o output -s pelicanconf.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghp-import output -r origin -b master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -f origin master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout content&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Publish.bat "some comment"&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;</content><category term="Devops"></category></entry><entry><title>Everying about coding</title><link href="https://jelly123456.github.io/2020/12/02/everying-about-coding/" rel="alternate"></link><published>2020-12-02T00:00:00+08:00</published><updated>2020-12-02T00:00:00+08:00</updated><author><name>YiLi</name></author><id>tag:jelly123456.github.io,2020-12-02:/2020/12/02/everying-about-coding/</id><content type="html">&lt;h1 id="coding-journery-in-leetcode"&gt;Coding journery in &lt;a href="https://leetcode.com/HanYiLi/"&gt;Leetcode&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Updating&amp;nbsp;soon.&lt;/p&gt;</content><category term="Programming"></category></entry><entry><title>Computer vision models with pytorch</title><link href="https://jelly123456.github.io/2020/12/01/computer-vision-models-with-pytorch/" rel="alternate"></link><published>2020-12-01T00:00:00+08:00</published><updated>2020-12-01T00:00:00+08:00</updated><author><name>YiLi</name></author><id>tag:jelly123456.github.io,2020-12-01:/2020/12/01/computer-vision-models-with-pytorch/</id><content type="html">&lt;h1 id="updating-soon"&gt;Updating&amp;nbsp;soon!&lt;/h1&gt;</content><category term="Deep learning&amp;Computer vision"></category></entry><entry><title>Computer vision models with tensorflow</title><link href="https://jelly123456.github.io/2020/12/01/computer-vision-models-with-tensorflow/" rel="alternate"></link><published>2020-12-01T00:00:00+08:00</published><updated>2020-12-01T00:00:00+08:00</updated><author><name>YiLi</name></author><id>tag:jelly123456.github.io,2020-12-01:/2020/12/01/computer-vision-models-with-tensorflow/</id><content type="html">&lt;h1 id="updating-soon"&gt;Updating&amp;nbsp;soon!&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.coursera.org/professional-certificates/tensorflow-in-practice"&gt;TensorFlow Developer Professional&amp;nbsp;Certificate&lt;/a&gt;&lt;/p&gt;</content><category term="Deep learning&amp;Computer vision"></category></entry><entry><title>Natural language processing models with deep learning</title><link href="https://jelly123456.github.io/2019/10/20/natural-language-processing-models-with-deep-learning/" rel="alternate"></link><published>2019-10-20T11:20:00+08:00</published><updated>2019-10-20T11:20:00+08:00</updated><author><name>YiLi</name></author><id>tag:jelly123456.github.io,2019-10-20:/2019/10/20/natural-language-processing-models-with-deep-learning/</id><content type="html">&lt;h1 id="updating-soon"&gt;Updating&amp;nbsp;soon!&lt;/h1&gt;</content><category term="Deep learning&amp;NLP"></category><category term="pelican"></category><category term="tutorial"></category></entry></feed>

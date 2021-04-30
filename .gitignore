@@ -1,2 +1,6 @@
 
 *.pyc
+Blog_Test.bat
+__pycache__/pelicanconf.cpython-39.pyc
+__pycache__/pelicanconf.cpython-39.pyc
+*.bat

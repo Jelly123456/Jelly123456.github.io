@@ -171,6 +171,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Wed, 09 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-09:/2020/12/09/devops-introduction/</guid><category>Devops</category></item><item><title>Everything about docker</title><link>https://jelly123456.github.io/2020/12/03/everything-about-docker/</link><description>&lt;h1 id="self-learning-journery-for-docker"&gt;Self learning journery for&amp;nbsp;Docker&lt;/h1&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-03:/2020/12/03/everything-about-docker/</guid><category>Devops</category></item><item><title>Using Pelican and Flex theme for blog and hosting it on Github pages</title><link>https://jelly123456.github.io/2020/12/03/using-pelican-and-flex-theme-for-blog-and-hosting-it-on-github-pages/</link><description>&lt;p&gt;I always want to set up a personal blog to record all the things(research, ideas) around my tech career. After searching the internet, I choose pelican and flex theme to write blogs because I like&amp;nbsp;simpilicity.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jelly123456.github.io/"&gt;Personal&amp;nbsp;Blog&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="pelican"&gt;Pelican&lt;/h1&gt;
 &lt;p&gt;Pelican is a static site generator, made in Python. By static, I mean that the content served is the same for everyone because it&amp;#8217;s generated in advance. Blogs are typically static while ecommerce sites (where you login, have an account, order history, etc.) are typically not. Templates save the blogger from having to muck about with verbose &lt;span class="caps"&gt;HTML&lt;/span&gt;. &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; and &lt;a href="http://docutils.sourceforge.net/rst.html"&gt;reStructuredText&lt;/a&gt; are two templating formats that Pelican handles&amp;nbsp;well.&lt;/p&gt;
 &lt;h1 id="github-pages"&gt;Github&amp;nbsp;pages&lt;/h1&gt;
@@ -342,8 +343,16 @@
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pelican&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pelicanconf&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
 &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;output&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href="https://jelly123456.github.io/"&gt;check the&amp;nbsp;website&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-03:/2020/12/03/using-pelican-and-flex-theme-for-blog-and-hosting-it-on-github-pages/</guid><category>Devops</category></item></channel></rss>
+&lt;h2 id="step-3-workflow-for-blog-maintenance"&gt;Step 3 - Workflow for Blog&amp;nbsp;Maintenance&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open Visual Studio&amp;nbsp;Code&lt;/li&gt;
+&lt;li&gt;Modify or add markdown files or add new&amp;nbsp;categories&lt;/li&gt;
+&lt;li&gt;Change Change &lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; in&amp;nbsp;pelicanconf.py&lt;/li&gt;
+&lt;li&gt;run &lt;code&gt;Blog_Test.bat&lt;/code&gt; to test the blog&amp;nbsp;locally&lt;/li&gt;
+&lt;li&gt;pelican&lt;/li&gt;
+&lt;li&gt;pelican &amp;#8212;listen&amp;nbsp;output&lt;/li&gt;
+&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">YiLi</dc:creator><pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:jelly123456.github.io,2020-12-03:/2020/12/03/using-pelican-and-flex-theme-for-blog-and-hosting-it-on-github-pages/</guid><category>Devops</category></item></channel></rss>

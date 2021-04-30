@@ -4,6 +4,8 @@ author: YiLi
 
 I always want to set up a personal blog to record all the things(research, ideas) around my tech career. After searching the internet, I choose pelican and flex theme to write blogs because I like simpilicity.
 
+[Personal Blog](https://jelly123456.github.io/)
+
 # Pelican
 
 Pelican is a static site generator, made in Python. By static, I mean that the content served is the same for everyone because it's generated in advance. Blogs are typically static while ecommerce sites (where you login, have an account, order history, etc.) are typically not. Templates save the blogger from having to muck about with verbose HTML. [Markdown](http://daringfireball.net/projects/markdown/) and [reStructuredText](http://docutils.sourceforge.net/rst.html) are two templating formats that Pelican handles well.
@@ -179,8 +181,27 @@ git push -u origin content
 ```
 pelican content -o output -s pelicanconf.py
 ghp-import output -r origin -b master
-git push origin master
+git push origin master or git push -f origin master
 git checkout content
 ```
 
-[check the website](https://jelly123456.github.io/)
+
+## Step 3 - Workflow for Blog Maintenance
+
+1. Open Visual Studio Code
+2. Modify or add markdown files or add new categories
+3. Change Change `RELATIVE_URLS = True` in pelicanconf.py
+4. run `Blog_Test.bat` to test the blog locally
+   * `pelican`
+   * `start "" "http://localhost:8000/"`
+   * pelican --listen output
+5. Change Change `RELATIVE_URLS = False` in pelicanconf.py
+6. run `Publish.bat` to update all the changes to github
+   * `git add .`
+   * `git commit -m %1`
+   * `git push -u origin content`
+   * `pelican content -o output -s pelicanconf.py`
+   * `ghp-import output -r origin -b master`
+   * `git push -f origin master`
+   * `git checkout content`
+7. `Publish.bat "some comment"`
